@@ -1,18 +1,53 @@
-<head>
-  <title>Volume</title>
-	<link rel="stylesheet" media="all" href="normalize.css">
-	<link rel="stylesheet" media="all" href="volume.css">
-</head>
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8" />
+	  <title>Volume</title>
+		<link rel="stylesheet" media="all" href="volume.css">
+	  <script src="jquery-1.7.2.min.js"></script>
+	  <script src="jquery.isotope.js"></script>
+	  <script>
+	    $(function(){
+      
+	      var $container = $('#container');
+      
+	      $container.isotope({
+	        itemSelector: '.item'
+	      });
+      
+	    });
+	  </script>
+	</head>
 
-<body>
-<div id="container">
-	{{> square }}
-	{{> square }}	
-</div>
-</body>
-
-<template name="square">
-	<div class="item">
-		<img src="/square.png">
+	<body>
+	<div id="container">
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
+		<div class="item">
+			<img src="public/square.png">
+		</div>
 	</div>
-</template>
+	</body>
+</html>
