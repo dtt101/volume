@@ -5,9 +5,14 @@
 </head>
 
 <body>
-	<div class="3col"><h1>TBM</h1></div>
+<div id="container">
+	{{> square }}
+	{{> square }}	
+</div>
 </body>
 
 <template name="square">
-	<img src="/public/square.png" />
+	<div class="item">
+		<img src="/square.png">
+	</div>
 </template>
