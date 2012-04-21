@@ -8,7 +8,7 @@ body {
 #container {
   border: 1px solid #f3f3f4;
   height: 600px;
-  width:1000px;
+  width:1200px;
 }
 
 .item {
@@ -30,8 +30,11 @@ widthbyheight
 	width: 306px;
 }
 .twobyone {
+  width: 200px;
 }
 .fourbythree {
+  width: 412px;
+  height: 258px;
 }
 
 
