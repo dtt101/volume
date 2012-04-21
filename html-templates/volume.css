@@ -1,19 +1,19 @@
 body {
-	margin:36px;
+	margin:25px;
 }
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
 #container {
-  border: 1px solid;
-  height: 500px;
+  border: 1px solid #f3f3f4;
+  height: 600px;
 }
 
 .item {
-  width: 78px;
-  height: 98px;
-  margin: 5px;
+  width: 94px;
+  height: 78px;
+  margin: 6px;
   float: left;
 }
 
