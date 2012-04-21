@@ -10,7 +10,26 @@
 <body>
 
 <div id="container">
+  <div class="item red threebyone">1</div>
+  <div class="item blue">2</div>
+  <div class="item green">3</div>
+  <div class="item yellow threebyone">4</div>
+  <div class="item red">5</div>
+  <div class="item blue">6</div>
+  <div class="item green">7</div>
+  <div class="item yellow">8</div>
+  <div class="item red">9</div>
+  <div class="item blue">10</div>
+  <div class="item green"></div>
+  <div class="item yellow"></div>
   <div class="item red"></div>
+  <div class="item blue"></div>
+  <div class="item green"></div>
+  <div class="item yellow"></div>
+  <div class="item red"></div>
+  <div class="item blue"></div>
+  <div class="item green"></div>
+  <div class="item yellow"></div>
   <div class="item blue"></div>
   <div class="item green"></div>
   <div class="item yellow"></div>
@@ -26,10 +45,6 @@
   <div class="item blue"></div>
   <div class="item green"></div>
   <div class="item yellow"></div>
-  <div class="item red"></div>
-  <div class="item blue"></div>
-  <div class="item green"></div>
-  <div class="item yellow"></div>
   <div class="item blue"></div>
   <div class="item green"></div>
   <div class="item yellow"></div>
@@ -39,6 +54,7 @@
   <div class="item yellow"></div>
   <div class="item red"></div>
   <div class="item blue"></div>
+
 </div>
   
 
@@ -48,13 +64,13 @@
 $(function(){
   
   var $container = $('#container'),
-      $checkboxes = $('#filters input');
   
   $container.isotope({
     itemSelector: '.item',
     layoutMode: 'masonryHorizontal',
-    animationEngine: 'jquery'
+    animationEngine: 'jquery',
   });
+$('#container').isotope({ sortBy : 'original-order' });
   
   $checkboxes.change(function(){
     var filters = [];

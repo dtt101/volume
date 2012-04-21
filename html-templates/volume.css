@@ -8,6 +8,7 @@ body {
 #container {
   border: 1px solid #f3f3f4;
   height: 600px;
+  width:1000px;
 }
 
 .item {
@@ -24,10 +25,15 @@ body {
 
 /* 
 widthbyheight
-threebyone 
-twobyone
-fourbythree
 */
+.threebyone {
+	width: 306px;
+}
+.twobyone {
+}
+.fourbythree {
+}
+
 
 /* Start: Recommended Isotope styles */
 
