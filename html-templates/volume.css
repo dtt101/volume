@@ -5,6 +5,12 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1 {
+	position:fixed;
+	top:23px;
+	left:50px;
+}
+
 #container {
   border: 1px solid #f3f3f4;
   height: 600px;
