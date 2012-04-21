@@ -5,13 +5,11 @@
   <title>VOLUME</title>
   <link rel="stylesheet" href="volume.css" />
   <script type='text/javascript' src='jquery-1.7.2.min.js'></script>
-  <script type='text/javascript' src="jquery.isotope.js"></script>  
 	<!-- videojs.com -->
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 </head>
 <body>
-
 <div id="container">
   <div class="item red threebyone">1</div>
   <div class="item blue">2</div>
@@ -65,46 +63,6 @@
   <div class="item yellow">42</div>
   <div class="item red">43</div>
   <div class="item blue">44</div>
-
 </div>
-  
-
-
-<script type='text/javascript'>//<![CDATA[ 
-
-$(function(){
-  
-  var $container = $('#container'),
-  
-  $container.isotope({
-    itemSelector: '.item',
-    layoutMode: 'masonryHorizontal',
-    animationEngine: 'jquery',
-  });
-$('#container').isotope({ sortBy : 'original-order' });
-  
-  $checkboxes.change(function(){
-    var filters = [];
-    // get checked checkboxes values
-    $checkboxes.filter(':checked').each(function(){
-      filters.push( this.value );
-    });
-    // ['.red', '.blue'] -> '.red, .blue'
-    filters = filters.join(', ');
-    $container.isotope({ filter: filters });
-  });
-    
-  $('#shuffle').click(function(){
-    $container.isotope('shuffle');
-  });
-
-});
-//]]>  
-
-</script>
-
-
 </body>
-
-
 </html>

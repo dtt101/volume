@@ -36,23 +36,6 @@ widthbyheight
   width: 412px;
   height: 258px;
 }
-
-
-/* Start: Recommended Isotope styles */
-
-/**** Isotope Filtering ****/
-
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* End: Recommended Isotope styles */
-
 /*
 from email: 1000px by 700px, the cells are at 106 x 78px so the column widths are 78px with gutters of 11px. 
 from layout: images are 78x94, gutters 11px
