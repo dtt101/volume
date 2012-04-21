@@ -1,10 +1,17 @@
 body {
 	margin:36px;
-	padding:0;
+}
+#container {
+  height: 70%;
+  width: 2000px;
+  background-color:green;
+}
+div.item {
+	width:78px;
+	height:94px;
+	background-color:blue;
+	border:1px solid red;
 }
 /*
-div.square {
-	width:94px;
-	height:77px;
-}
+1000px by 700px, the cells are at 106 x 78px so the column widths are 78px with gutters of 11px. 
 */
