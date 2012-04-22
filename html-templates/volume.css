@@ -11,6 +11,13 @@ h1 {
 	left:50px;
 }
 
+h2 {
+	position:absolute;
+	top:160px;
+	left:450px;
+}
+
+
 #container {
   border: 1px solid #f3f3f4;
   height: 600px;
