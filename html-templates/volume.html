@@ -6,12 +6,13 @@
   <link rel="stylesheet" href="volume.css" />
   <script type='text/javascript' src='jquery-1.7.2.min.js'></script>
 	<script type='text/javascript' src='jquery.scrollTo-1.4.2-min.js'></script>
+	<script type='text/javascript' src='stellar.min.js'></script>
 	<!-- videojs.com -->
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
 </head>
 <body>
-<h1>Volume</h1>
+<h1 data-stellar-ratio="0.3">Volume</h1>
 <div id="container">
   <div class="item red threebyone">1</div>
   <div class="item blue">2</div>
@@ -66,5 +67,9 @@
   <div class="item red">43</div>
   <div class="item blue">44</div>
 </div>
+<script>
+// run scrolling
+$.stellar();
+</script>
 </body>
 </html>
