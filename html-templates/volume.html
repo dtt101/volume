@@ -4,9 +4,10 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>VOLUME</title>
   <link rel="stylesheet" href="volume.css" />
-  <script type='text/javascript' src='jquery-1.7.2.min.js'></script>
-	<script type='text/javascript' src='jquery.scrollTo-1.4.2-min.js'></script>
-	<script type='text/javascript' src='stellar.min.js'></script>
+  <script src="jquery-1.7.2.min.js"></script>
+	<script src="jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="stellar.min.js"></script>
+	<script src="buzz.js"></script>
 	<!-- videojs.com -->
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
@@ -19,7 +20,12 @@
 <div id="container">
   <div class="item red threebyone">1</div>
   <div class="item blue">2</div>
-  <div class="item green">3</div>
+  <div class="item green">
+	  <button id="pause-audio">pause</button>
+	  <br>
+	  <button id="up-audio">+</button>
+	  <button id="down-audio">-</button>
+  </div>
   <div class="item yellow threebyone">4</div>
   <div class="item red">5</div>
   <div class="item blue">6</div>
@@ -68,7 +74,7 @@
   <div class="item blue">extra</div>
   <div class="item blue">extra</div>
   <div class="item yellow">27</div>
-  <div class="item red">28</div>
+  <div class="item red"><img src="public/square.png"></div>
   <div class="item blue">29</div>
   <div class="item green">30</div>
   <div class="item yellow">31</div>
@@ -98,12 +104,43 @@
   <div class="item blue">extra</div>
 </div>
 <script>
-// run scrolling
-$.stellar({
-    // Set scrolling to be in either one or both directions
-    horizontalScrolling: true,
-    verticalScrolling: false	
-});
+	// run scrolling
+	$.stellar({
+	    // Set scrolling to be in either one or both directions
+	    horizontalScrolling: true,
+	    verticalScrolling: false	
+	});
+	
+	// play audio
+	// TODO - make ogg
+	var mySound = new buzz.sound("public/sounds/koko.mp3", {
+	    preload: true,
+	    autoplay: true,
+	    loop: false
+	});
+
+	// audio event handlers
+	$("#pause-audio").click(function() {
+		var text = 'pause';
+		mySound.togglePlay();
+		if (mySound.isPaused()) {
+			text = 'play';
+		} else {
+			text = 'pause';			
+		}
+		$('#pause-audio').html(text);
+	});
+	
+	$("#up-audio").click(function() {
+		mySound.increaseVolume(10);
+	});
+
+	$("#down-audio").click(function() {
+		mySound.decreaseVolume(10);
+	});
+	
+	// sound.getVolume()
+
 </script>
 </body>
 </html>
