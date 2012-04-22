@@ -115,20 +115,15 @@
 	// TODO - make ogg
 	var mySound = new buzz.sound("public/sounds/koko.mp3", {
 	    preload: true,
-	    autoplay: true,
+	    autoplay: false,
 	    loop: false
 	});
 
-	// audio event handlers
+	// audio event handlers - 	// sound.getVolume()
 	$("#pause-audio").click(function() {
 		var text = 'pause';
 		mySound.togglePlay();
-		if (mySound.isPaused()) {
-			text = 'play';
-		} else {
-			text = 'pause';			
-		}
-		$('#pause-audio').html(text);
+		updateAudioUI();
 	});
 	
 	$("#up-audio").click(function() {
@@ -139,7 +134,39 @@
 		mySound.decreaseVolume(10);
 	});
 	
-	// sound.getVolume()
+	function updateAudioUI() {
+		if (mySound.isPaused()) {
+			text = 'play';
+		} else {
+			text = 'pause';			
+		}
+		$('#pause-audio').html(text);
+	}
+	
+	// call initially to set correct state for play button
+	updateAudioUI();
+	
+	// fade item visibility
+	function fadeOutItems(selector) {
+    $(selector).each(function() { 
+        var item = $(this); 
+				if (item) {
+					item.fadeTo("slow", 0);
+				}
+    });
+	}
+	
+	function fadeInItems(selector) {
+    $(selector).each(function() { 
+        var item = $(this); 
+				if (item) {
+					item.fadeTo("slow", 1);
+				}
+    });
+	}
+
+	
+
 
 </script>
 </body>
