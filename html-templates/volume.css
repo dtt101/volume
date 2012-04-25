@@ -9,6 +9,7 @@ h1 {
 	position:absolute;
 	top:23px;
 	left:50px;
+	z-index: -20;
 }
 
 h2 {

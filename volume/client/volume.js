@@ -44,6 +44,9 @@ if (Meteor.is_client) {
 	
 		$("#up-audio").click(function() {
 			mySound.increaseVolume(10);
+      if (mySound.getVolume() > 80) {
+        fadeOutItems(".blue");
+      }  
 		});
 
 		$("#down-audio").click(function() {
