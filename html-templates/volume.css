@@ -20,7 +20,7 @@ h2 {
 
 
 #container {
-  border: 1px solid #f3f3f4;
+  border: 1px solid red;
   height: 600px;
   width:1600px;
 }
@@ -29,7 +29,7 @@ h2 {
   width: 94px;
   height: 78px;
   margin: 6px;
-  float: left;
+  /*float: left;*/
 }
 
 .red { background: red; }
