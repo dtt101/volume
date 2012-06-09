@@ -9,6 +9,7 @@
 	<script src="stellar.min.js"></script>
   <script src="jquery.isotope.min.js"></script>
 	<script src="buzz.js"></script>
+  <script src="jquery.knob.js"></script>
 	<!-- videojs.com -->
 	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 	<script src="http://vjs.zencdn.net/c/video.js"></script>
@@ -16,11 +17,19 @@
 	<!-- $.scrollTo( 1000, 800, {easing:'swing',axis:'x'} ); -->
   <script>
   $(document).ready(function() {
+    // kick off grid
     $('#container').isotope({
       // options
       itemSelector : '.item',
       layoutMode : 'masonryHorizontal'
     });
+    // set up controls
+    $(".dial").knob({
+      'fgColor': '#000',
+      'bgColor': '#ccc',
+      'width': '100'
+    });
+    
   });
   </script>
 
@@ -28,6 +37,9 @@
 <body>
 <h1 data-stellar-ratio="0.3">Volume</h1>
 <h2 data-stellar-ratio="0.7">Fugazi</h2>
+<div id="controls">
+    <input type="text" value="75" class="dial" data-min="0" data-max="100">
+</div>
 <div id="container">
   <div class="item red threebyone">1</div>
   <div class="item blue">2</div>
