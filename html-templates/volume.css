@@ -3,7 +3,7 @@ body {
 }
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  height:1600px;
+  width:2120px;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h2 {
 #container {
   border: 1px solid red;
   height: 600px;
-  width:1600px;
+  width:2120px;
 }
 
 .item {
