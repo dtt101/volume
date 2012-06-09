@@ -3,6 +3,7 @@ body {
 }
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  height:1600px;
 }
 
 h1 {
@@ -19,6 +20,7 @@ h2 {
 }
 
 #controls {
+  background-color: #fff;
   position: fixed;
   top:20px;
   left: 20px;
