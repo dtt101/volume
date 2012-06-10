@@ -3,19 +3,18 @@ body {
 }
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  width:2120px;
 }
 
 h1 {
 	position:absolute;
-	top:23px;
-	left:50px;
+	top:150px;
+	left:500px;
 	z-index: 200;
 }
 
 h2 {
 	position:absolute;
-	top:160px;
+	top:260px;
 	left:450px;
 }
 
@@ -28,7 +27,6 @@ h2 {
 }
 
 #container {
-  border: 1px solid red;
   height: 600px;
   width:2120px;
 }
@@ -37,13 +35,14 @@ h2 {
   width: 94px;
   height: 78px;
   margin: 6px;
+  opacity: 0;
   /*float: left;*/
 }
 
-.red { background: red; }
-.blue { background: blue; }
-.green { background: green; }
-.yellow { background: yellow; }
+.red { background: #E8716F; }
+.blue { background: #9CDEFF; }
+.green { background: #A0E8A1; }
+.yellow { background: #FFE192; }
 
 /* 
 widthbyheight
@@ -62,3 +61,43 @@ widthbyheight
 from email: 1000px by 700px, the cells are at 106 x 78px so the column widths are 78px with gutters of 11px. 
 from layout: images are 78x94, gutters 11px
 */
+
+
+/* isotope animation */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}

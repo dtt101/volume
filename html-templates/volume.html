@@ -18,7 +18,7 @@
 <h1 data-stellar-ratio="0.3">Volume</h1>
 <h2 data-stellar-ratio="0.7">Fugazi</h2>
 <div id="controls">
-    <input type="text" value="75" class="dial" data-min="0" data-max="100">
+    <input type="text" value="0" class="dial" data-min="0" data-max="100">
 </div>
 <div id="container">
   <div class="item red threebyone">1</div>
@@ -203,17 +203,23 @@
   	// call initially to set correct state for play button
   	updateAudioUI();
 
-
     // set up controls
     $(".dial").knob({
       'fgColor': '#000',
       'bgColor': '#ccc',
       'width': '100',
       'change':function(v) {
-        if (v < 60) {
+        if (v < 25) {
           // TODO this should only be run if they are not already fade out
-          fadeOutItems('.blue');
+          fadeInItems('.yellow');
+        } else if (v < 50){
+          fadeInItems('.red');
+        } else if (v < 75){
+          fadeInItems('.green');
+        } else if (v > 75){
+          fadeInItems('.blue');
         }
+
       }
     });
 
