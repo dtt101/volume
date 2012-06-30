@@ -88,8 +88,9 @@ header {
   height: 95px;
   left: 50%;
   margin-left: -500px;
-  background: rgba(251, 251, 251, 0.6);
+  background: rgba(251, 251, 251, 0.8);
   text-align: center;
+  z-index: 1000;
 }
 header h1 {
   padding:0;
