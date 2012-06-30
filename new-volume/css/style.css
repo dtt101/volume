@@ -76,10 +76,13 @@ td { vertical-align: top; }
 html, body {
   background-color: #eaeaea;
 }
+/* header */
 header {
+  position: fixed;
   width: 1000px;
   height: 95px;
-  margin: 0px auto;
+  left: 50%;
+  margin-left: -500px;
   background: rgba(251, 251, 251, 0.6);
   text-align: center;
 }
@@ -92,7 +95,12 @@ header h1 img {
   height: 41px;
   padding-top: 30px;
 }
-
+/* main */
+div#main {
+  margin: 0px auto;
+  width: 1000px;
+  height: 5600px;
+}
 
 
 
