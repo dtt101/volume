@@ -74,7 +74,7 @@ td { vertical-align: top; }
    Author: David Thompson
    ========================================================================== */
 html, body {
-  background-color: #eaeaea;
+  background-color: #302d33;
 }
 /* header */
 header {
@@ -100,6 +100,9 @@ div#main {
   margin: 0px auto;
   width: 1000px;
   height: 5600px;
+  background-color: #eaeaea;
+  box-shadow: 0 0 4px #eaeaea;
+  -moz-box-shadow: 0 0 4px #eaeaea;
 }
 
 
