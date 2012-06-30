@@ -1,6 +1,5 @@
-/* Author:
-
-*/
+/* Author: David Thompson */
+$('#main').stellar();
 
 
 
