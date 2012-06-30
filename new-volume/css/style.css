@@ -98,11 +98,16 @@ header h1 img {
 /* main */
 div#main {
   margin: 0px auto;
+  position: relative;
   width: 1000px;
   height: 5600px;
   background-color: #eaeaea;
   box-shadow: 0 0 4px #eaeaea;
   -moz-box-shadow: 0 0 4px #eaeaea;
+}
+img#rigged-quote {
+  width: 752px;
+  height: 303px;
 }
 
 
