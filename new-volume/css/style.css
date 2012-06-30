@@ -73,7 +73,25 @@ td { vertical-align: top; }
 /* ===== Primary Styles ========================================================
    Author: David Thompson
    ========================================================================== */
-
+html, body {
+  background-color: #eaeaea;
+}
+header {
+  width: 1000px;
+  height: 95px;
+  margin: 0px auto;
+  background: rgba(251, 251, 251, 0.6);
+  text-align: center;
+}
+header h1 {
+  padding:0;
+  margin:0;
+}
+header h1 img {
+  width: 110px;
+  height: 41px;
+  padding-top: 30px;
+}
 
 
 
