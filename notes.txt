@@ -6,7 +6,7 @@ Facebook, Twitter and YouTube urls
 Several images look darker than the original - e.g bird, ears
 Need text beginning 'Suppressed in the Soviet Union...'
 The blue chapter 1 box next to the ears on the png is not in the cutouts - does it need to be included?
-
+Email address for email icon
 
 favicon
 google analytics
