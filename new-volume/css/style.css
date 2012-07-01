@@ -145,6 +145,11 @@ img#typewriter {
   width: 216px;
   height: 208px;
 }
+div.blue-container {
+  width:1000px;
+  height:800px;
+  background-color:#d6d6fd;
+}
 
 
 
