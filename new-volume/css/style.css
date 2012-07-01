@@ -113,88 +113,135 @@ div#main {
   -moz-box-shadow: 0 0 4px #eaeaea;
 }
 img#rigged-quote {
+  position: absolute;
+  top: 249px;
+  left: 124px;
   width: 752px;
   height: 303px;
 }
-p#idea {}
+p#idea {
+  display:none;
+}
 .callout {
   border-left:1px solid #1922fb;
   width: 260px;
   padding-left: 13px;
 }
 img#hexagons {
+  display:none;
   width: 109px;
   height: 96px;
 }
 img#book-icon {
+  display:none;
   width: 83px;
   height: 94px;
 }
 img#planet {
+  display:none;
   width: 204px;
   height: 204px;
 }
 img#retro-photos {
+  display:none;
   width: 97px;
   height: 204px;
 }
 img#thirteen {
+  display:none;
   width: 120px;
   height: 154px;
 }
 img#typewriter {
+  display:none;
   width: 216px;
   height: 208px;
 }
 div.blue-container {
+  position: absolute;
   width:1000px;
   height:800px;
   background-color:#d6d6fd;
 }
+div#first-container {
+  top:1600px;
+  left:0px;
+}
+img#cone {
+  display: none;
+}
+img#ruskin-quote {
+  display: none;
+}
+div#musicians {
+  display:none;
+}
 img#bird {
+  display:none;
   width: 366px;
   height: 141px;
 }
 img#retro-photos-two {
+  display:none;
   width: 206px;
   height: 206px;
 }
 img#volume-one {
+  display:none;
   width: 10px;
   height: 56px;
 }
 img#band {
+  display:none;
   width: 568px;
   height: 36px;
 }
 img#ears {
+  display:none;
   width: 76px;
   height: 388px;
 }
+p#margarita-text {
+  display:none;
+}
 img#master-title {
+  display:none;
   width: 284px;
   height: 35px;
 }
-p.margarita-text {}
+p.margarita-text {
+  display:none;
+}
 div#parchment {
+  position: absolute;
+  left:0;
+  top: 4000px;
   width:1000px;
   height:800px;
   background-color:#e5dbad;
   background-image: url("../img/parchment.png");
 }
+div#second-container {
+  left:0;
+  top: 4800px;
+}
 img#rotter-quote {
+  display:none;
   width: 677px;
   height: 401px; 
 }
 img#email {
+  display:none;
   width: 80px;
   height: 46px; 
 }
 img#invitation {
+  display:none;
   width: 491px;
   height: 232px; 
 }
 img#meme {
+  display:none;
   width: 25px;
   height: 25px; 
 }
