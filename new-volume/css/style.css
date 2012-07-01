@@ -284,7 +284,6 @@ img#rotter-quote {
 div#second-container {
   top: 4800px;
   left:0;
-  border: 1px solid green;
 }
 img#invitation {
   position: absolute;
@@ -326,13 +325,14 @@ div#third-line {
   top: 2883px;
   height: 338px;
 }
-
-
-
-
-
-
-
+div#fourth-line {
+  top: 3298px;
+  height: 904px;
+}
+div#fifth-line {
+  top: 4600px;
+  height: 499px;
+}
 
 
 
