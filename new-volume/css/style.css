@@ -77,10 +77,25 @@ html, body {
   background-color: #302d33;
   font-family: "Times New Roman", Times, serif;
 }
-p {
+p, a {
   font-size: 0.9em;
   line-height: 1.1em;
   color: #58585a;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.1em;
+  color: #58585a;
+}
+a {
+  font-size: 1em;
+  display: block;
+  text-decoration: none;
+  font-style: italic;
 }
 /* header */
 header {
@@ -182,13 +197,26 @@ div#first-container {
   left:0px;
 }
 img#cone {
+  /* TODO - need proper image */
   display: none;
+  position: absolute;
+  top: 186px;
+  left: 314px;
+  width: 100px;
+  height: 100px;
 }
 img#ruskin-quote {
-  display: none;
+  position: absolute;
+  top: 297px;
+  left: 124px;
+  width: 752px;
+  height: 303px;
 }
 div#musicians {
-  display:none;
+  position: absolute;
+  top: 2423px;
+  left: 713px;
+  border-left: none;
 }
 img#bird {
   display:none;
