@@ -80,6 +80,7 @@ html, body {
 p {
   font-size: 0.9em;
   line-height: 1.1em;
+  color: #58585a;
 }
 /* header */
 header {
@@ -117,7 +118,6 @@ img#rigged-quote {
 }
 p#idea {
   border-left:1px solid #1922fb;
-  color: #58585a;
   width: 260px;
   padding-left: 13px;
 }
@@ -129,7 +129,7 @@ img#book-icon {
   width: 83px;
   height: 94px;
 }
-img#book-icon {
+img#planet {
   width: 204px;
   height: 204px;
 }
@@ -149,6 +149,22 @@ div.blue-container {
   width:1000px;
   height:800px;
   background-color:#d6d6fd;
+}
+img#bird {
+  width: 366px;
+  height: 141px;
+}
+img#retro-photos-two {
+  width: 206px;
+  height: 206px;
+}
+img#volume-one {
+  width: 10px;
+  height: 56px;
+}
+img#band {
+  width: 568px;
+  height: 36px;
 }
 
 
