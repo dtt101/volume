@@ -219,40 +219,51 @@ div#musicians {
   border-left: none;
 }
 img#bird {
-  display:none;
+  position: absolute;
+  top: 2597px;
+  left: 186px;
   width: 366px;
   height: 141px;
 }
 img#retro-photos-two {
-  display:none;
+  position: absolute;
+  top: 2909px;
+  left: 713px;
   width: 206px;
   height: 206px;
 }
 img#volume-one {
-  display:none;
+  position: absolute;
+  top: 3058px;
+  left: 23px;
   width: 10px;
   height: 56px;
 }
 img#band {
-  display:none;
+  position: absolute;
+  top: 2824px;
+  left: 216px;
   width: 568px;
   height: 36px;
 }
 img#ears {
-  display:none;
+  position: absolute;
+  top: 3331px;
+  left: 858px;
   width: 76px;
   height: 388px;
 }
 p#margarita-text {
-  display:none;
+  position: absolute;
+  top: 3326px;
+  left: 150px;  
 }
 img#master-title {
-  display:none;
+  position: absolute;
+  top: 3241px;
+  left: 500px;
   width: 284px;
   height: 35px;
-}
-p.margarita-text {
-  display:none;
 }
 div#parchment {
   position: absolute;
@@ -263,14 +274,16 @@ div#parchment {
   background-color:#e5dbad;
   background-image: url("../img/parchment.png");
 }
+img#rotter-quote {
+  position: absolute;
+  top: 199px;
+  left: 161px;
+  width: 677px;
+  height: 401px; 
+}
 div#second-container {
   left:0;
   top: 4800px;
-}
-img#rotter-quote {
-  display:none;
-  width: 677px;
-  height: 401px; 
 }
 img#email {
   display:none;
