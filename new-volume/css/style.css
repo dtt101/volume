@@ -120,7 +120,9 @@ img#rigged-quote {
   height: 303px;
 }
 p#idea {
-  display:none;
+  position: absolute;
+  left: 150px;
+  top: 926px;
 }
 .callout {
   border-left:1px solid #1922fb;
@@ -128,32 +130,44 @@ p#idea {
   padding-left: 13px;
 }
 img#hexagons {
-  display:none;
+  position: absolute;
+  top: 1093px;
+  left: 204px;
   width: 109px;
   height: 96px;
 }
 img#book-icon {
-  display:none;
+  position: absolute;
+  top: 1216px;
+  left: 553px;
   width: 83px;
   height: 94px;
 }
 img#planet {
-  display:none;
+  position: absolute;
+  top: 962px;
+  left: 472px;
   width: 204px;
   height: 204px;
 }
 img#retro-photos {
-  display:none;
+  position: absolute;
+  top: 1046px;
+  left: 753px;
   width: 97px;
   height: 204px;
 }
 img#thirteen {
-  display:none;
-  width: 120px;
-  height: 154px;
+  position: absolute;
+  top: 1053px;
+  left: 889px;
+  width: 81px;
+  height: 123px;
 }
 img#typewriter {
-  display:none;
+  position: absolute;
+  top: 1283px;
+  left: 187px;
   width: 216px;
   height: 208px;
 }
