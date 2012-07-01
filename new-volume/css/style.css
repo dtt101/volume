@@ -175,6 +175,17 @@ img#master-title {
   width: 284px;
   height: 35px;
 }
+p.margarita-text {}
+div#parchment {
+  width:1000px;
+  height:800px;
+  background-color:#e5dbad;
+  background-image: url("../img/parchment.png");
+}
+img#rotter-quote {
+  width: 677px;
+  height: 401px; 
+}
 
 
 
