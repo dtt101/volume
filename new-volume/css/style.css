@@ -307,6 +307,25 @@ img#meme {
   width: 25px;
   height: 25px; 
 }
+/* centre lines */
+div.centre-line {
+  background-color:#1922fb;
+  width: 1px;
+  position: absolute;
+  left:500px;
+}
+div#first-line {
+  top: 552px;
+  height: 1346px;
+}
+div#second-line {
+  top: 2199px;
+  height: 602px;
+}
+div#third-line {
+  top: 2883px;
+  height: 338px;
+}
 
 
 
