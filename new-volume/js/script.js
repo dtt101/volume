@@ -1,7 +1,2 @@
 /* Author: David Thompson */
-//$('#main').stellar();
-
-
-
-
-
+$('#main').stellar();
