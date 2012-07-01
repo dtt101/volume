@@ -116,7 +116,8 @@ img#rigged-quote {
   width: 752px;
   height: 303px;
 }
-p#idea {
+p#idea {}
+.callout {
   border-left:1px solid #1922fb;
   width: 260px;
   padding-left: 13px;
@@ -165,6 +166,14 @@ img#volume-one {
 img#band {
   width: 568px;
   height: 36px;
+}
+img#ears {
+  width: 76px;
+  height: 388px;
+}
+img#master-title {
+  width: 284px;
+  height: 35px;
 }
 
 
