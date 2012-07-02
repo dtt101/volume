@@ -253,6 +253,13 @@ img#ears {
   width: 76px;
   height: 388px;
 }
+img#soviet {
+  position: absolute;
+  top: 3400px;
+  left: 450px;
+  width: 357px;
+  height: 469px;  
+}
 p#margarita-text {
   position: absolute;
   top: 3326px;
