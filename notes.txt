@@ -4,8 +4,6 @@ need new cutout of V_F3_Image2.png (cone)
 Content for musicians area
 Several images look darker than the original - e.g bird, ears
 do animations
-favicon
-google analytics
 
 
 DONE:

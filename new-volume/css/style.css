@@ -160,7 +160,7 @@ img#book-icon {
 }
 img#planet {
   position: absolute;
-  top: 962px;
+  top: 932px;
   left: 472px;
   width: 204px;
   height: 204px;
@@ -220,7 +220,7 @@ div#musicians {
 }
 img#bird {
   position: absolute;
-  top: 2597px;
+  top: 2297px;
   left: 186px;
   width: 366px;
   height: 141px;
@@ -248,7 +248,7 @@ img#band {
 }
 img#ears {
   position: absolute;
-  top: 3331px;
+  top: 2831px;
   left: 858px;
   width: 76px;
   height: 388px;
@@ -259,6 +259,7 @@ img#soviet {
   left: 450px;
   width: 357px;
   height: 469px;  
+  z-index: 1000;
 }
 p#margarita-text {
   position: absolute;

@@ -8,7 +8,6 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
-/* stellar */
 ;(function($, window, document, undefined){
 
 	var pluginName = 'stellar',
@@ -601,4 +600,3 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 	//Expose the plugin class so it can be modified
 	window.Stellar = Plugin;
 }(jQuery, window, document));
-
