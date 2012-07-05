@@ -197,13 +197,11 @@ div#first-container {
   left:0px;
 }
 img#cone {
-  /* TODO - need proper image */
-  display: none;
   position: absolute;
-  top: 186px;
-  left: 314px;
-  width: 100px;
-  height: 100px;
+  top: 204px;
+  left: 273px;
+  width: 454px;
+  height: 454px;
 }
 img#ruskin-quote {
   position: absolute;
