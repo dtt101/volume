@@ -75,11 +75,11 @@ td { vertical-align: top; }
    ========================================================================== */
 html, body {
   background-color: #302d33;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 p, a {
-  font-size: 0.9em;
-  line-height: 1.1em;
+  font-size: 0.8em;
+  line-height: 1.2em;
   color: #58585a;
 }
 h2 {
@@ -154,8 +154,6 @@ img#falling-squares {
   top: 0;
   left: 0;  
 }
-
-
 p#idea {
   position: absolute;
   left: 150px;
@@ -166,6 +164,10 @@ p#idea {
   width: 260px;
   padding-left: 13px;
 }
+
+
+
+/* OLD CODE */
 div.blue-container {
   position: absolute;
   width:1000px;
