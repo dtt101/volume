@@ -123,17 +123,39 @@ div#main {
   position: relative;
   width: 1000px;
   height: 5600px;
-  background-color: #eaeaea;
-  box-shadow: 0 0 4px #eaeaea;
-  -moz-box-shadow: 0 0 4px #eaeaea;
+  background-color: #ffffd9;
+  box-shadow: 0 0 4px #ffffd9;
+  -moz-box-shadow: 0 0 4px #ffffd9;
 }
-img#rigged-quote {
+img#i-hear {
   position: absolute;
-  top: 249px;
-  left: 124px;
-  width: 752px;
-  height: 303px;
+  top: 100px;
+  left: 215px;
+  width: 543px;
+  height: 479px;
 }
+img#dots {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img#vol-1 {
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+img#cowboy {
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+img#falling-squares {
+  position: absolute;
+  top: 0;
+  left: 0;  
+}
+
+
 p#idea {
   position: absolute;
   left: 150px;
@@ -143,48 +165,6 @@ p#idea {
   border-left:1px solid #1922fb;
   width: 260px;
   padding-left: 13px;
-}
-img#hexagons {
-  position: absolute;
-  top: 1093px;
-  left: 204px;
-  width: 109px;
-  height: 96px;
-}
-img#book-icon {
-  position: absolute;
-  top: 1216px;
-  left: 553px;
-  width: 83px;
-  height: 94px;
-}
-img#planet {
-  position: absolute;
-  top: 932px;
-  left: 472px;
-  width: 204px;
-  height: 204px;
-}
-img#retro-photos {
-  position: absolute;
-  top: 1046px;
-  left: 753px;
-  width: 97px;
-  height: 204px;
-}
-img#thirteen {
-  position: absolute;
-  top: 1053px;
-  left: 889px;
-  width: 81px;
-  height: 123px;
-}
-img#typewriter {
-  position: absolute;
-  top: 1283px;
-  left: 187px;
-  width: 216px;
-  height: 208px;
 }
 div.blue-container {
   position: absolute;
