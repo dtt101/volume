@@ -209,10 +209,16 @@ p#band {
   left: 711px;
   width: 214px;  
 }
-
-
-
-
+p#about-1 {
+  top: 3418px;
+  left: 160px;
+  width: 255px;  
+}
+p#about-2 {
+  top: 3418px;
+  left: 435px;
+  width: 255px;  
+}
 
 /* =============================================================================
    Media Queries
