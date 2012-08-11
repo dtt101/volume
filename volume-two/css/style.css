@@ -193,11 +193,15 @@ img#V_38 { top:0px; left: 0px; width:1000px; height: 600px }
 img#V_39 { top:0px; left: 0px; width:13px; height: 221px }
 img#V_40 { top:0px; left: 0px; width:177px; height: 210px }
 
+
 .callout {
   position: absolute;
-  border-left:1px solid #1922fb;
+  color: #ff2b06;
+}
+p#idea {
+  top: 923px;
+  left: 161px;
   width: 260px;
-  padding-left: 13px;
 }
 
 
