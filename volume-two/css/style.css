@@ -98,13 +98,19 @@ a {
   font-style: italic;
 }
 /* header */
+div#header-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  background: rgba(251, 251, 251, 0.8);
+  z-index: 995;
+}
 header {
   position: fixed;
   width: 1000px;
   height: 95px;
   left: 50%;
   margin-left: -500px;
-  background: rgba(251, 251, 251, 0.8);
   text-align: center;
   z-index: 1000;
 }
