@@ -147,187 +147,60 @@ div#main {
   height: 5600px;
   background-color: #ffffd9;
 }
-img#V_0 {
+div#main img {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 0px;
-  height: 0px;
+  border: 0;
 }
-img#V_5 {
-  position: absolute;
+div#main img#V_5 {
   top: 148px;
   left: 240px;
   width: 518px;
   height: 467px;
 }
+img#V_6 { top:0px; left: 0px; width:110px; height: 126px }
+img#V_7 { top:0px; left: 0px; width:111px; height: 490px }
+img#V_8 { top:0px; left: 0px; width:80px; height: 68px }
+img#V_9 { top:0px; left: 0px; width:401px; height: 406px }
+img#V_10 { top:0px; left: 0px; width:222px; height: 167px }
+img#V_11 { top:0px; left: 0px; width:13px; height: 299px }
+img#V_12 { top:0px; left: 0px; width:106px; height: 85px }
+img#V_13 { top:0px; left: 0px; width:239px; height: 239px }
+img#V_14 { top:0px; left: 0px; width:13px; height: 299px }
+img#V_15 { top:0px; left: 0px; width:80px; height: 47px }
+img#V_16 { top:0px; left: 0px; width:79px; height: 89px }
+img#V_17 { top:0px; left: 0px; width:440px; height: 450px }
+img#V_18 { top:0px; left: 0px; width:350px; height: 350px }
+img#V_19 { top:0px; left: 0px; width:13px; height: 299px }
+img#V_20 { top:0px; left: 0px; width:81px; height: 81px }
+img#V_21 { top:0px; left: 0px; width:175px; height: 38px }
+img#V_22 { top:0px; left: 0px; width:676px; height: 567px }
+img#V_23 { top:0px; left: 0px; width:142px; height: 173px }
+img#V_24 { top:0px; left: 0px; width:131px; height: 173px }
+img#V_25 { top:0px; left: 0px; width:164px; height: 173px }
+img#V_26 { top:0px; left: 0px; width:141px; height: 173px }
+img#V_27 { top:0px; left: 0px; width:142px; height: 173px }
+img#V_28 { top:0px; left: 0px; width:131px; height: 173px }
+img#V_29 { top:0px; left: 0px; width:164px; height: 173px }
+img#V_30 { top:0px; left: 0px; width:126px; height: 125px }
+img#V_31 { top:0px; left: 0px; width:126px; height: 125px }
+img#V_32 { top:0px; left: 0px; width:126px; height: 125px }
+img#V_33 { top:0px; left: 0px; width:126px; height: 125px }
+img#V_34 { top:0px; left: 0px; width:63px; height: 80px }
+img#V_35 { top:0px; left: 0px; width:149px; height: 343px }
+img#V_36 { top:0px; left: 0px; width:126px; height: 125px }
+img#V_37 { top:0px; left: 0px; width:13px; height: 221px }
+img#V_38 { top:0px; left: 0px; width:1000px; height: 600px }
+img#V_39 { top:0px; left: 0px; width:13px; height: 221px }
+img#V_40 { top:0px; left: 0px; width:177px; height: 210px }
+
 .callout {
+  position: absolute;
   border-left:1px solid #1922fb;
   width: 260px;
   padding-left: 13px;
 }
 
 
-
-
-
-
-
-
-/* OLD CODE */
-div.blue-container {
-  position: absolute;
-  width:1000px;
-  height:800px;
-  background-color:#d6d6fd;
-}
-div#first-container {
-  top:1600px;
-  left:0px;
-}
-img#cone {
-  position: absolute;
-  top: 204px;
-  left: 273px;
-  width: 454px;
-  height: 454px;
-}
-img#ruskin-quote {
-  position: absolute;
-  top: 297px;
-  left: 124px;
-  width: 752px;
-  height: 303px;
-}
-div#musicians {
-  position: absolute;
-  top: 2423px;
-  left: 713px;
-  border-left: none;
-}
-img#bird {
-  position: absolute;
-  top: 2297px;
-  left: 186px;
-  width: 366px;
-  height: 141px;
-}
-img#retro-photos-two {
-  position: absolute;
-  top: 2909px;
-  left: 713px;
-  width: 206px;
-  height: 206px;
-}
-img#volume-one {
-  position: absolute;
-  top: 3058px;
-  left: 23px;
-  width: 10px;
-  height: 56px;
-}
-img#band {
-  position: absolute;
-  top: 2824px;
-  left: 216px;
-  width: 568px;
-  height: 36px;
-}
-img#ears {
-  position: absolute;
-  top: 2831px;
-  left: 858px;
-  width: 76px;
-  height: 388px;
-}
-img#soviet {
-  position: absolute;
-  top: 3400px;
-  left: 450px;
-  width: 357px;
-  height: 469px;  
-  z-index: 1000;
-}
-p#margarita-text {
-  position: absolute;
-  top: 3326px;
-  left: 150px;  
-}
-img#master-title {
-  position: absolute;
-  top: 3241px;
-  left: 500px;
-  width: 284px;
-  height: 35px;
-}
-div#parchment {
-  position: absolute;
-  left:0;
-  top: 4000px;
-  width:1000px;
-  height:800px;
-  background-color:#e5dbad;
-  background-image: url("../img/parchment.png");
-}
-img#rotter-quote {
-  position: absolute;
-  top: 199px;
-  left: 161px;
-  width: 677px;
-  height: 401px; 
-}
-div#second-container {
-  top: 4800px;
-  left:0;
-}
-img#invitation {
-  position: absolute;
-  top: 297px;
-  left: 254px;
-  width: 491px;
-  height: 232px; 
-}
-img#email {
-  position: absolute;
-  top: 595px;
-  left: 460px;
-  width: 80px;
-  height: 46px; 
-}
-img#meme {
-  position: absolute;
-  top: 708px;
-  left: 487px;
-  width: 25px;
-  height: 25px; 
-}
-/* centre lines */
-div.centre-line {
-  background-color:#1922fb;
-  width: 1px;
-  position: absolute;
-  left:500px;
-}
-div#first-line {
-  top: 552px;
-  height: 1346px;
-}
-div#second-line {
-  top: 2199px;
-  height: 602px;
-}
-div#third-line {
-  top: 2883px;
-  height: 338px;
-}
-div#fourth-line {
-  top: 3298px;
-  height: 904px;
-}
-div#fifth-line {
-  top: 4600px;
-  height: 499px;
-}
 
 
 
