@@ -33,3 +33,4 @@ $.stellar({
   hideElement: function($elem) { $elem.hide(); },
   showElement: function($elem) { $elem.show(); }
 });
+
