@@ -147,11 +147,30 @@ div#main {
   height: 5600px;
   background-color: #ffffd9;
 }
+img#V_0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
+img#V_5 {
+  position: absolute;
+  top: 148px;
+  left: 240px;
+  width: 518px;
+  height: 467px;
+}
 .callout {
   border-left:1px solid #1922fb;
   width: 260px;
   padding-left: 13px;
 }
+
+
+
+
+
 
 
 
