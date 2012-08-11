@@ -1,5 +1,4 @@
 /* Author: David Thompson */
-
 $.stellar({
   // Set scrolling to be in either one or both directions
   horizontalScrolling: false,

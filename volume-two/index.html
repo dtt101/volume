@@ -71,6 +71,10 @@
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
+
+<script src="https://raw.github.com/sjhewitt/glitch.js/master/glitch.js"></script>
+<script src="js/libs/html2canvas.js"></script>
+
 <script type="text/javascript">
  var _gaq = _gaq || [];
  _gaq.push(['_setAccount', 'UA-33181481-1']);
@@ -84,19 +88,31 @@
 
 </script>
 <!-- 
-
 TODO:
 add versus g logo
 add palace of dead roads image
 add brown t image
-do magic js image thing
 do scrolling thing
 
 NEED from TBM: 
 Brown T image
 The Place of Dead Roads By William S Burroughs image
 Versus Goliath logo including somewhere
-
 -->
+<script>
+$(function(){
+	var glitchContainer = $("#V_31").wrap("<div>").parent();
+	var glitchAction = function(){
+		glitch.transition(glitchContainer.children(), $("#V_31").clone(), {
+			effect:"slide",
+			delay: 1000,
+			complete: function() {
+				setTimeout(glitchAction, 7000);
+			}
+		});	
+	};
+	glitchAction();
+});	
+</script>
 </body>
 </html>
