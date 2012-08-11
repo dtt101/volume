@@ -74,7 +74,7 @@ td { vertical-align: top; }
    Author: David Thompson
    ========================================================================== */
 html, body {
-  background-color: #302d33;
+  background-color: #ffffd9;
   font-family: Helvetica, Arial, sans-serif;
 }
 p, a {
@@ -113,9 +113,25 @@ header h1 {
   margin:0;
 }
 header h1 img {
-  width: 110px;
-  height: 41px;
+  width: 85px;
+  height: 18px;
   padding-top: 30px;
+}
+header a.logo {
+  position:absolute;
+  top:30px;
+  left: 75px;
+}
+header a.logo img {
+  width: 18px;
+  height: 18px;  
+}
+header img#V_4 {
+  position:absolute;
+  width: 16px;
+  height: 17px; 
+  top: 30px;
+  right: 75px;   
 }
 /* main */
 div#main {
@@ -124,40 +140,6 @@ div#main {
   width: 1000px;
   height: 5600px;
   background-color: #ffffd9;
-  box-shadow: 0 0 4px #ffffd9;
-  -moz-box-shadow: 0 0 4px #ffffd9;
-}
-img#i-hear {
-  position: absolute;
-  top: 100px;
-  left: 215px;
-  width: 543px;
-  height: 479px;
-}
-img#dots {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-img#vol-1 {
-  position: absolute;
-  top: 0;
-  left: 0;  
-}
-img#cowboy {
-  position: absolute;
-  top: 0;
-  left: 0;  
-}
-img#falling-squares {
-  position: absolute;
-  top: 0;
-  left: 0;  
-}
-p#idea {
-  position: absolute;
-  left: 150px;
-  top: 926px;
 }
 .callout {
   border-left:1px solid #1922fb;
