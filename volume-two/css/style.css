@@ -173,7 +173,7 @@ img#V_18 { top:1536px; left: 488px; width:350px; height: 350px; z-index: 100; }
 img#V_19 { top:2144px; left: 492px; width:13px; height: 299px }
 img#V_20 { top:2133px; left: 818px; width:81px; height: 81px }
 img#V_21 { top:2344px; left: 620px; width:175px; height: 38px }
-img#V_22 { top:2495px; left: 161px; width:676px; height: 567px; z-index: 5; }
+img#V_22 { top:2495px; left: 161px; width:679px; height: 568px; z-index: 5; }
 img#V_23 { top:2617px; left: 279px; width:142px; height: 173px; z-index: 16; }
 img#V_24 { top:2865px; left: 404px; width:131px; height: 173px; z-index: 17; }
 img#V_25 { top:2718px; left: 585px; width:164px; height: 173px; z-index: 18; }
@@ -181,7 +181,6 @@ img#V_26 { top:2989px; left: 740px; width:141px; height: 173px; z-index: 19; }
 img#V_27 { top:2657px; left: 217px; width:142px; height: 173px; z-index: 6; }
 img#V_28 { top:2919px; left: 344px; width:131px; height: 173px; z-index: 7; }
 img#V_29 { top:2605px; left: 526px; width:164px; height: 173px; z-index: 8; }
-/*img#V_29 { top:2605px; left: 526px; width:164px; height: 173px; z-index: 8; }*/
 img#V_30 { top:2780px; left: 840px; width:126px; height: 125px }
 img#V_31 { top:3188px; left: 840px; width:126px; height: 125px }
 img#V_32 { top:3314px; left: 840px; width:126px; height: 125px }
@@ -193,6 +192,8 @@ img#V_37 { top:3831px; left: 492px; width:13px; height: 221px }
 img#V_38 { top:4121px; left: 0px; width:1000px; height: 600px }
 img#V_39 { top:4748px; left: 492px; width:13px; height: 221px }
 img#V_40 { top:5046px; left: 411px; width:177px; height: 210px }
+img#V_41 { top:3056px; left: 682px; width:141px; height: 173px; z-index: 9; }
+img#V_42 { top:3250px; left: 98px; width:348px; height: 80px }
 
 
 .callout {
