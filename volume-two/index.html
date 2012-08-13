@@ -74,8 +74,10 @@
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
 
+<!--
 <script src="js/libs/glitch.js"></script>
 <script src="js/libs/html2canvas.js"></script>
+-->
 
 <script type="text/javascript">
  var _gaq = _gaq || [];
@@ -100,19 +102,19 @@ Versus Goliath logo including somewhere
 RUN WITH: python -m SimpleHTTPServer
 -->
 <script>
-$(function(){
-	var glitchContainer = $("#V_31").wrap("<div>").parent();
-	var glitchAction = function(){
-		glitch.transition(glitchContainer.children(), $("#V_31").clone(), {
-			effect:"slide",
-			delay: 1000,
-			complete: function() {
-				setTimeout(glitchAction, 7000);
-			}
-		});	
-	};
-	glitchAction();
-});	
+// $(function(){
+// 	var glitchContainer = $("#V_31").wrap("<div>").parent();
+// 	var glitchAction = function(){
+// 		glitch.transition(glitchContainer.children(), $("#V_31").clone(), {
+// 			effect:"slide",
+// 			delay: 1000,
+// 			complete: function() {
+// 				setTimeout(glitchAction, 7000);
+// 			}
+// 		});	
+// 	};
+// 	glitchAction();
+// });	
 </script>
 </body>
 </html>
