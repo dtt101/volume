@@ -172,7 +172,7 @@ img#V_17 { top:1662px; left: 278px; width:440px; height: 450px; z-index: 200; }
 img#V_18 { top:1495px; left: 577px; width:320px; height: 320px; z-index: 100; }
 img#V_19 { top:2144px; left: 492px; width:13px; height: 299px }
 img#V_20 { top:2133px; left: 818px; width:81px; height: 81px }
-img#V_21 { top:2344px; left: 620px; width:175px; height: 38px }
+img#V_21 { top:2324px; left: 620px; width:175px; height: 38px }
 img#V_22 { top:2495px; left: 161px; width:679px; height: 568px; z-index: 5; }
 img#V_23 { top:2617px; left: 279px; width:142px; height: 173px; z-index: 16; }
 img#V_24 { top:2865px; left: 404px; width:131px; height: 173px; z-index: 17; }
@@ -206,9 +206,23 @@ p#idea {
   width: 260px;
 }
 p#band {
-  top: 2400px;
+  top: 2375px;
   left: 711px;
   width: 214px;  
+}
+p#band a {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  line-height: 1.2em;
+  color: #ff2b06;
+}
+p#band a:visited, p#band a:active {
+ color: #ff2b06;
+} 
+p#band a:hover {
+  text-decoration: underline;
 }
 p#about-1 {
   top: 3418px;
